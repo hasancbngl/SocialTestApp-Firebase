@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowSnapActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="35dp">
+
+        <TextView
+            android:id="@+id/fromTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="from email etc"
+            android:textStyle="italic|bold"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/snapImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="50dp"/>
+
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+           android:hint="message"
+            android:textStyle="italic|bold"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="that is a message tho"
+            android:textStyle="italic|bold"
+            android:layout_marginBottom="25dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

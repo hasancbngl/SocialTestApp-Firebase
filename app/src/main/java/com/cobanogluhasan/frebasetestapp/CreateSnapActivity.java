@@ -27,7 +27,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.ByteArrayOutputStream;
-import java.net.URL;
+import  java.net.URL;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -119,12 +119,6 @@ public class CreateSnapActivity extends AppCompatActivity implements View.OnClic
                 startActivity(intent);
             }
         });
-
-
-
-
-
-
     }
 
 
